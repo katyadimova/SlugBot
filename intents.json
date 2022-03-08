@@ -1,0 +1,105 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for stopping by.",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "where",
+      "patterns": [
+        "Where do sea slugs live?",
+        "What is the home of sea slugs?",
+        "What do seas slugs call home?",
+        "Where could I find you?"
+      ],
+      "responses": [
+        "We are found  in oceans throughout the world.",
+        "We live in temperate to tropical waters.",
+        "Sea slugs can live in shallow water or thousands of feet down in the ocean. The sea bunny lives in the Indo-Pacific Ocean from South Africa to the central Pacific.",
+        "We live under rocks, in crevices, and near coral reefs."
+      ]
+    },
+    {
+      "tag": "food",
+      "patterns": [
+        "What do you eat?",
+        "What food do sea slugs have?",
+        "What's for supper?",
+        "What's there favorite meal?"
+      ],
+      "responses": [
+        "Some of us are herbivores eating algae and other plant life off rocks. Others are carnivores eating jellyfish, plankton and other sea creatures.",
+        "We eat algae, jellyfish, plankton and other sea creatures."
+      ]
+    },
+    {
+      "tag": "size",
+      "patterns": [
+        "How big are the sea slugs?",
+        "How much do they grow?",
+        "What size do they reach?"
+      ],
+      "responses": [
+        "We come in  variety of sizes from one-eighth of an inch to over 3ft. ",
+        "The black sea hare (Aplysia vaccaria) is the largest sea slug species. It can get as big as 3 ft 2.9 in in length, and weigh nearly 30 lb 13.8 oz. But others are the size of your nail."
+      ]
+    },
+    {
+      "tag": "danger",
+      "patterns": [
+        "Are you dangerous?",
+        "Can sea slugs bite?",
+        "Should I touch sea slug?",
+        "Can I eat sea slugs?",
+        "Should I touch you?"
+      ],
+      "responses": [
+        "Not all of us are harmful, but some are.The grey side-gilled sea slug (Pleurobranchaea maculata) can be deadly to humans and dogs. ",
+        "One sting from the blue dragon this can lead to nausea, pain, vomiting, acute allergic contact dermatitis, and post-inflammatory hyperpigmentation.",
+        "You better don't touch us. Some of us are toxic, due to the food we eat."
+      ]
+    },
+    {
+      "tag": "funfacts",
+      "patterns": [
+        "Tell me a random fact!",
+        "I want to know a funf fact",
+        "What's the strangest thing about them?"
+      ],
+      "responses": [
+        "Sea slugs have both male and female organs. ",
+        "Sea slugs eyes are more of a light sensor- detecting light only",
+        "Two species of sea slugs can pop off their heads and regrow their entire bodies.",
+        "A Sea Slug can travel at speeds of up to 0.2 miles per hour."
+
+      ]
+    }
+  ]
+}
