@@ -1,7 +1,12 @@
 # Implementation of a Contextual Chatbot in PyTorch.  
 Simple chatbot implementation with PyTorch. 
-
+The implementation of this chatbot has been taken from:
 Webpage: https://github.com/python-engineer/pytorch-chatbot
+
+I have added a couple of files to converted to a streamlit app.
+----------------------------
+The README of the Python-Engineer chat bot:
+
 - The implementation should be easy to follow for beginners and provide a basic understanding of chatbots.
 - The implementation is straightforward with a Feed Forward Neural net with 2 hidden layers.
 - Customization for your own use case is super easy. Just modify `intents.json` with possible patterns and responses and re-run the training (see below for more info).
