@@ -1,6 +1,6 @@
 streamlit
 numpy
-annotated_text
+st-annotated-text
 random
 torch
 nltk
