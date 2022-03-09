@@ -10,7 +10,7 @@ def message(msg,user, order):
     col1, col12,col2,col3 = st.columns([2,6, 1,8])
     if user == 'bot':
         with col2:
-            st.image("images/sea_slug.png", width =50)
+            st.image("sea_slug.png", width =50)
         with col3:
             if order == 1:
                 annotated_text(("", msg , "#8ef"))
