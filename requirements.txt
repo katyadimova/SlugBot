@@ -1,6 +1,5 @@
 streamlit
 numpy
-json-1.6.1
 annotated_text
 random
 torch
