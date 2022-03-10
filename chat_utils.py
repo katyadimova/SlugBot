@@ -44,7 +44,7 @@ def load_model(model_path):
     return model, all_words, tags
 
 
-@st.cache
+#@st.cache
 def chatting(model, sentence, all_words, tags):
 
     with open('intents.json', 'r') as json_data:
