@@ -5,7 +5,7 @@ from annotated_text import annotated_text
 
 def get_text():
     input_text = st.text_input("You: ","", key="input", placeholder ="How are you?")
-    _ = st.text_input("You: ","", key="input", placeholder =input_text)
+    
     return input_text
 def message(msg,user, order):
     col1, col12,col2,col3 = st.columns([2,6, 1,8])
